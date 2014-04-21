@@ -12,6 +12,7 @@ public class Main {
         p1.move(12, 22);
    //     p1.draw();
         out.println(p1);
+        p1.draw();
 
 
     }
