@@ -8,6 +8,8 @@ import static java.lang.System.out;
 public class GraphObject {
     public String color="Black";
 
+    public static String DEFAULT_COLOR="BLACK";
+
     public void draw(){
         out.printf("GraphObject %s", this.color);
     }
